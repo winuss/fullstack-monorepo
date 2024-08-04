@@ -1,0 +1,15 @@
+{
+  "name": "fullstack-monorepo",
+  "scripts": {
+    "dev": "turbo run dev",
+    "build": "turbo run build",
+    "start": "node apps/api/dist/main"
+  },
+  "devDependencies": {
+    "turbo": "^2.0.11"
+  },
+  "workspaces": [
+    "apps/*"
+  ],
+  "packageManager": "npm@10.8.1"
+}
