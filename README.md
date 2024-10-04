@@ -10,6 +10,8 @@ fullstack-monorepo/
   └── turbo.json
 ```
 
+Commands,
+
 mkdir {project-name} && cd cd {project-name}
 npm init -y
 npm install -D turbo
